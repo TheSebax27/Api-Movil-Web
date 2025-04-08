@@ -1,6 +1,0 @@
-@AppApiAlmacen_HostAddress = http://localhost:5110
-
-GET {{AppApiAlmacen_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
