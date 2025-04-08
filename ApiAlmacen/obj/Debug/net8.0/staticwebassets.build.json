@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "sWWTjRu+3vNZpSzpfwMhN5VvuhmfA9zyAWBp8JIP68I=",
+  "Source": "ApiAlmacen",
+  "BasePath": "_content/ApiAlmacen",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
