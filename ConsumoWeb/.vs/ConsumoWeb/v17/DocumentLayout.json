@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|c:\\users\\pc_11\\desktop\\api-web-movil\\consumoweb\\consumoweb\\datos\\cllistarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|solutionrelative:consumoweb\\datos\\cllistarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|c:\\users\\pc_11\\desktop\\api-web-movil\\consumoweb\\consumoweb\\datos\\cleliminarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|solutionrelative:consumoweb\\datos\\cleliminarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|c:\\users\\pc_11\\desktop\\api-web-movil\\consumoweb\\consumoweb\\datos\\cleditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|solutionrelative:consumoweb\\datos\\cleditarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|c:\\users\\pc_11\\desktop\\api-web-movil\\consumoweb\\consumoweb\\datos\\clregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|solutionrelative:consumoweb\\datos\\clregistrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|c:\\users\\pc_11\\desktop\\api-web-movil\\consumoweb\\consumoweb\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|solutionrelative:consumoweb\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|c:\\users\\pc_11\\desktop\\api-web-movil\\consumoweb\\consumoweb\\datos\\clconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|solutionrelative:consumoweb\\datos\\clconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|c:\\users\\pc_11\\desktop\\api-web-movil\\consumoweb\\consumoweb\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|solutionrelative:consumoweb\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|c:\\users\\pc_11\\desktop\\api-web-movil\\consumoweb\\consumoweb\\entidades\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8762E64C-9609-42B7-923D-C61183006E63}|ConsumoWeb\\ConsumoWeb.csproj|solutionrelative:consumoweb\\entidades\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clListarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clListarUsuario.cs",
+              "RelativeDocumentMoniker": "ConsumoWeb\\datos\\clListarUsuario.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clListarUsuario.cs",
+              "RelativeToolTip": "ConsumoWeb\\datos\\clListarUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:22:42.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clEliminarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clEliminarUsuario.cs",
+              "RelativeDocumentMoniker": "ConsumoWeb\\datos\\clEliminarUsuario.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clEliminarUsuario.cs",
+              "RelativeToolTip": "ConsumoWeb\\datos\\clEliminarUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:22:29.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clEditarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clEditarUsuario.cs",
+              "RelativeDocumentMoniker": "ConsumoWeb\\datos\\clEditarUsuario.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clEditarUsuario.cs",
+              "RelativeToolTip": "ConsumoWeb\\datos\\clEditarUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:22:06.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clRegistrarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clRegistrarUsuario.cs",
+              "RelativeDocumentMoniker": "ConsumoWeb\\datos\\clRegistrarUsuario.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clRegistrarUsuario.cs",
+              "RelativeToolTip": "ConsumoWeb\\datos\\clRegistrarUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:21:53.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\index.aspx",
+              "RelativeDocumentMoniker": "ConsumoWeb\\index.aspx",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\index.aspx",
+              "RelativeToolTip": "ConsumoWeb\\index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-07T13:20:51.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "usuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\entidades\\usuario.cs",
+              "RelativeDocumentMoniker": "ConsumoWeb\\entidades\\usuario.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\entidades\\usuario.cs",
+              "RelativeToolTip": "ConsumoWeb\\entidades\\usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:11:23.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tipousuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\entidades\\tipousuario.cs",
+              "RelativeDocumentMoniker": "ConsumoWeb\\entidades\\tipousuario.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\entidades\\tipousuario.cs",
+              "RelativeToolTip": "ConsumoWeb\\entidades\\tipousuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:10:25.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clConexion.cs",
+              "DocumentMoniker": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clConexion.cs",
+              "RelativeDocumentMoniker": "ConsumoWeb\\datos\\clConexion.cs",
+              "ToolTip": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\ConsumoWeb\\ConsumoWeb\\datos\\clConexion.cs",
+              "RelativeToolTip": "ConsumoWeb\\datos\\clConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T13:05:07.958Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -67,9 +67,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="datos\clConexion.cs" />
+    <Compile Include="datos\clEditarUsuario.cs" />
+    <Compile Include="datos\clEliminarUsuario.cs" />
+    <Compile Include="datos\clListarUsuario.cs" />
+    <Compile Include="datos\clRegistrarUsuario.cs" />
+    <Compile Include="entidades\tipousuario.cs" />
+    <Compile Include="entidades\usuario.cs" />
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +95,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="icons\" />
+    <Folder Include="logica\" />
+    <Folder Include="vista\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
