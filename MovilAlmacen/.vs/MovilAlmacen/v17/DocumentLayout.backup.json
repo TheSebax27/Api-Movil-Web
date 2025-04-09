@@ -3,76 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\models\\logininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\models\\logininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\service\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\service\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\helpers\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\helpers\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\views\\detalleclientepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\views\\detalleclientepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\resources\\styles\\appstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\resources\\styles\\appstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\movilalmacen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\movilalmacen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\viewmodels\\detalleclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\viewmodels\\detalleclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\views\\detalleclientepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,6 +19,34 @@
       "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\views\\clientespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\viewmodels\\detalleclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\viewmodels\\detalleclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\viewmodels\\clientesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\viewmodels\\clientesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,12 +55,64 @@
       "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\service\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\service\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\models\\asignacioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\models\\asignacioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\models\\logininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\models\\logininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\helpers\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\helpers\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\views\\detalleclientepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\views\\detalleclientepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovilAlmacen\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\resources\\styles\\appstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\resources\\styles\\appstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\movilalmacen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\movilalmacen.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\movilalmacen\\movilalmacen\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA491781-388E-4307-86EE-67FC1E279B88}|MovilAlmacen\\MovilAlmacen.csproj|solutionrelative:movilalmacen\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 379,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,176 +130,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Service\\ApiService.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Service\\ApiService.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Service\\ApiService.cs",
-              "RelativeToolTip": "MovilAlmacen\\Service\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:58:27.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\Usuario.cs",
-              "RelativeToolTip": "MovilAlmacen\\Models\\Usuario.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAwwJsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:51:15.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "MovilAlmacen\\ViewModels\\LoginViewModel.cs",
               "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "MovilAlmacen\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T03:01:24.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "MovilAlmacen\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T03:03:25.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\LoginPage.xaml",
-              "RelativeToolTip": "MovilAlmacen\\Views\\LoginPage.xaml",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAWwH0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T03:03:17.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TipoUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\TipoUsuario.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Models\\TipoUsuario.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\TipoUsuario.cs",
-              "RelativeToolTip": "MovilAlmacen\\Models\\TipoUsuario.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:51:32.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\LoginInfo.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Models\\LoginInfo.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\LoginInfo.cs",
-              "RelativeToolTip": "MovilAlmacen\\Models\\LoginInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:58:10.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Converters.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Helpers\\Converters.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Helpers\\Converters.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Helpers\\Converters.cs",
-              "RelativeToolTip": "MovilAlmacen\\Helpers\\Converters.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwCAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T03:13:23.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Service\\LoginService.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Service\\LoginService.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Service\\LoginService.cs",
-              "RelativeToolTip": "MovilAlmacen\\Service\\LoginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:58:40.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MainPage.xaml.cs",
-              "RelativeToolTip": "MovilAlmacen\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T03:13:54.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppStyles.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Resources\\Styles\\AppStyles.xaml",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Resources\\Styles\\AppStyles.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Resources\\Styles\\AppStyles.xaml",
-              "RelativeToolTip": "MovilAlmacen\\Resources\\Styles\\AppStyles.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T03:12:17.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DetalleClientePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\DetalleClientePage.xaml",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\DetalleClientePage.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\DetalleClientePage.xaml",
-              "RelativeToolTip": "MovilAlmacen\\Views\\DetalleClientePage.xaml",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAWwA0BAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T03:04:27.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\App.xaml.cs",
               "RelativeDocumentMoniker": "MovilAlmacen\\App.xaml.cs",
               "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\App.xaml.cs",
               "RelativeToolTip": "MovilAlmacen\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T03:10:55.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\AppShell.xaml.cs",
+              "RelativeToolTip": "MovilAlmacen\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T05:12:52.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MovilAlmacen\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MainPage.xaml",
+              "RelativeToolTip": "MovilAlmacen\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T02:47:54.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\AppShell.xaml",
+              "RelativeDocumentMoniker": "MovilAlmacen\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\AppShell.xaml",
+              "RelativeToolTip": "MovilAlmacen\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T03:02:41.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\App.xaml",
               "RelativeDocumentMoniker": "MovilAlmacen\\App.xaml",
@@ -300,59 +208,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MovilAlmacen.csproj",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj",
-              "RelativeDocumentMoniker": "MovilAlmacen\\MovilAlmacen.csproj",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj",
-              "RelativeToolTip": "MovilAlmacen\\MovilAlmacen.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-08T16:49:09.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\AppShell.xaml",
-              "RelativeDocumentMoniker": "MovilAlmacen\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\AppShell.xaml",
-              "RelativeToolTip": "MovilAlmacen\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ClientesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\ClientesPage.xaml",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\ClientesPage.xaml",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\ClientesPage.xaml",
+              "RelativeToolTip": "MovilAlmacen\\Views\\ClientesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T03:02:41.466Z",
+              "WhenOpened": "2025-04-09T03:03:55.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MauiProgram.cs",
-              "RelativeToolTip": "MovilAlmacen\\MauiProgram.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAADwvyYAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ClientesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\ClientesPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\ClientesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\ClientesPage.xaml.cs",
+              "RelativeToolTip": "MovilAlmacen\\Views\\ClientesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T02:44:54.639Z",
+              "WhenOpened": "2025-04-09T03:04:05.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DetalleClienteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\DetalleClienteViewModel.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\ViewModels\\DetalleClienteViewModel.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\DetalleClienteViewModel.cs",
-              "RelativeToolTip": "MovilAlmacen\\ViewModels\\DetalleClienteViewModel.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAkwK4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T03:02:17.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "DetalleClientePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\DetalleClientePage.xaml.cs",
               "RelativeDocumentMoniker": "MovilAlmacen\\Views\\DetalleClientePage.xaml.cs",
@@ -365,81 +247,242 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ClientesPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\ClientesPage.xaml.cs",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\ClientesPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\ClientesPage.xaml.cs",
-              "RelativeToolTip": "MovilAlmacen\\Views\\ClientesPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "MovilAlmacen\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T03:04:05.215Z",
+              "WhenOpened": "2025-04-09T03:03:25.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ClientesPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\ClientesPage.xaml",
-              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\ClientesPage.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\ClientesPage.xaml",
-              "RelativeToolTip": "MovilAlmacen\\Views\\ClientesPage.xaml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAmwHwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T03:03:55.695Z",
+              "DocumentIndex": 10,
+              "Title": "DetalleClienteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\DetalleClienteViewModel.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\ViewModels\\DetalleClienteViewModel.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\DetalleClienteViewModel.cs",
+              "RelativeToolTip": "MovilAlmacen\\ViewModels\\DetalleClienteViewModel.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAADwv5sAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:02:17.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 11,
               "Title": "ClientesViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\ClientesViewModel.cs",
               "RelativeDocumentMoniker": "MovilAlmacen\\ViewModels\\ClientesViewModel.cs",
               "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\ClientesViewModel.cs",
               "RelativeToolTip": "MovilAlmacen\\ViewModels\\ClientesViewModel.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAkwIAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T03:02:02.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 12,
               "Title": "BaseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "MovilAlmacen\\ViewModels\\BaseViewModel.cs",
               "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\ViewModels\\BaseViewModel.cs",
               "RelativeToolTip": "MovilAlmacen\\ViewModels\\BaseViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T03:01:05.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 13,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Service\\ApiService.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Service\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Service\\ApiService.cs",
+              "RelativeToolTip": "MovilAlmacen\\Service\\ApiService.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAIwLkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:58:27.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\Usuario.cs",
+              "RelativeToolTip": "MovilAlmacen\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:51:15.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "AsignacionCliente.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\AsignacionCliente.cs",
               "RelativeDocumentMoniker": "MovilAlmacen\\Models\\AsignacionCliente.cs",
               "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\AsignacionCliente.cs",
               "RelativeToolTip": "MovilAlmacen\\Models\\AsignacionCliente.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAkwGwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T02:51:56.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MovilAlmacen\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MainPage.xaml",
-              "RelativeToolTip": "MovilAlmacen\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-09T02:47:54.232Z",
+              "DocumentIndex": 16,
+              "Title": "TipoUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\TipoUsuario.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Models\\TipoUsuario.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\TipoUsuario.cs",
+              "RelativeToolTip": "MovilAlmacen\\Models\\TipoUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:51:32.789Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "MovilAlmacen\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T04:21:49.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\LoginInfo.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Models\\LoginInfo.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Models\\LoginInfo.cs",
+              "RelativeToolTip": "MovilAlmacen\\Models\\LoginInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:58:10.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Converters.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Helpers\\Converters.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Helpers\\Converters.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Helpers\\Converters.cs",
+              "RelativeToolTip": "MovilAlmacen\\Helpers\\Converters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:13:23.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DetalleClientePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\DetalleClientePage.xaml",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\DetalleClientePage.xaml",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\DetalleClientePage.xaml",
+              "RelativeToolTip": "MovilAlmacen\\Views\\DetalleClientePage.xaml",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAwwP8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T03:04:27.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Service\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Service\\LoginService.cs",
+              "RelativeToolTip": "MovilAlmacen\\Service\\LoginService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:58:40.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "MovilAlmacen\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAWwEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T04:52:22.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "MovilAlmacen\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAmwGwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T03:03:17.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MainPage.xaml.cs",
+              "RelativeToolTip": "MovilAlmacen\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T03:13:54.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppStyles.xaml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Resources\\Styles\\AppStyles.xaml",
+              "RelativeDocumentMoniker": "MovilAlmacen\\Resources\\Styles\\AppStyles.xaml",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\Resources\\Styles\\AppStyles.xaml",
+              "RelativeToolTip": "MovilAlmacen\\Resources\\Styles\\AppStyles.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T03:12:17.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MovilAlmacen.csproj",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj",
+              "RelativeDocumentMoniker": "MovilAlmacen\\MovilAlmacen.csproj",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj",
+              "RelativeToolTip": "MovilAlmacen\\MovilAlmacen.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T16:49:09.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MovilAlmacen\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MauiProgram.cs",
+              "RelativeToolTip": "MovilAlmacen\\MauiProgram.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvyYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T02:44:54.639Z"
             }
           ]
         }

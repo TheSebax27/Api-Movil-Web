@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\models\\asignacioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:models\\asignacioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\controllers\\asignacionclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:controllers\\asignacionclientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\models\\asignacioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:models\\asignacioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\migrations\\20250409010904_migracionsebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:migrations\\20250409010904_migracionsebas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|c:\\users\\sebastian\\onedrive\\desktop\\trabajo-mov-api-web\\api-movil-web\\apialmacen\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB249006-7270-4FC3-82CF-7A46CE506D91}|ApiAlmacen.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,59 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250409010904_Migracionsebas.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Migrations\\20250409010904_Migracionsebas.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250409010904_Migracionsebas.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Migrations\\20250409010904_Migracionsebas.cs",
-              "RelativeToolTip": "Migrations\\20250409010904_Migracionsebas.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwBsAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:09:04.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AsignacionClienteController.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Controllers\\AsignacionClienteController.cs",
               "RelativeDocumentMoniker": "Controllers\\AsignacionClienteController.cs",
               "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Controllers\\AsignacionClienteController.cs",
               "RelativeToolTip": "Controllers\\AsignacionClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAwwKIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T01:06:15.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAgwIAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:05:04.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T01:02:56.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AsignacionCliente.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Models\\AsignacionCliente.cs",
               "RelativeDocumentMoniker": "Models\\AsignacionCliente.cs",
@@ -111,20 +76,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA4wCcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T00:58:57.275Z",
+              "WhenOpened": "2025-04-09T01:02:56.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAmwJEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:05:04.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TipoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Models\\TipoUsuario.cs",
               "RelativeDocumentMoniker": "Models\\TipoUsuario.cs",
@@ -134,6 +112,44 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T00:58:14.771Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:58:57.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TipoUsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Controllers\\TipoUsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TipoUsuarioController.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Controllers\\TipoUsuarioController.cs",
+              "RelativeToolTip": "Controllers\\TipoUsuarioController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T04:05:41.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250409010904_Migracionsebas.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Migrations\\20250409010904_Migracionsebas.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250409010904_Migracionsebas.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\ApiAlmacen\\Migrations\\20250409010904_Migracionsebas.cs",
+              "RelativeToolTip": "Migrations\\20250409010904_Migracionsebas.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwBsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:09:04.645Z"
             }
           ]
         }

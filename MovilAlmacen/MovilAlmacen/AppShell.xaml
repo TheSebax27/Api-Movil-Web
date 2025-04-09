@@ -6,6 +6,7 @@
        FlyoutBehavior="Disabled"
        Shell.NavBarIsVisible="False">
 
+   
     <ShellContent 
         Route="LoginPage" 
         ContentTemplate="{DataTemplate views:LoginPage}" />
@@ -14,8 +15,5 @@
         Route="ClientesPage" 
         ContentTemplate="{DataTemplate views:ClientesPage}" />
 
-    <ShellContent 
-        Route="DetalleClientePage" 
-        ContentTemplate="{DataTemplate views:DetalleClientePage}" />
-
+   
 </Shell>

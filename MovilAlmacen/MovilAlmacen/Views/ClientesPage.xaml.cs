@@ -17,7 +17,7 @@ public partial class ClientesPage : ContentPage
     {
         base.OnAppearing();
 
-        // Verificar si hay sesión activa, de lo contrario redirigir a login
+       
         var idUsuario = Preferences.Get("IdUsuario", 0);
         if (idUsuario == 0)
         {
@@ -25,7 +25,7 @@ public partial class ClientesPage : ContentPage
             return;
         }
 
-        // Refrescar la lista de clientes
+   
         _viewModel.RefreshCommand.Execute(null);
     }
 }

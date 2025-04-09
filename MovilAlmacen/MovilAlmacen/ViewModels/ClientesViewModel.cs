@@ -2,6 +2,7 @@
 using System.Windows.Input;
 using MovilAlmacen.Models;
 using MovilAlmacen.Services;
+using System.Diagnostics;
 
 namespace MovilAlmacen.ViewModels
 {
@@ -51,11 +52,11 @@ namespace MovilAlmacen.ViewModels
             SeleccionarClienteCommand = new Command<AsignacionCliente>(async (cliente) => await SeleccionarCliente(cliente));
             CerrarSesionCommand = new Command(async () => await CerrarSesion());
 
-            // Cargar datos iniciales
+           
             Task.Run(async () => await CargarClientesAsignados());
         }
 
-        private async Task CargarClientesAsignados()
+        public async Task CargarClientesAsignados()
         {
             if (IsBusy)
                 return;
@@ -67,19 +68,24 @@ namespace MovilAlmacen.ViewModels
                 MensajeEstado = "Cargando clientes...";
 
                 int idVendedor = Preferences.Get("IdUsuario", 0);
+                Debug.WriteLine($"ID de vendedor recuperado: {idVendedor}");
+
                 if (idVendedor == 0)
                 {
-                    MensajeEstado = "Error: No se ha iniciado sesión";
+                    MensajeEstado = "Error: Usuario no identificado. Intente iniciar sesión nuevamente.";
+                    Debug.WriteLine("Error: ID de vendedor es 0");
                     return;
                 }
 
                 var clientes = await _apiService.GetClientesAsignados(idVendedor);
+                Debug.WriteLine($"Se obtuvieron {clientes.Count} clientes");
 
                 ClientesAsignados.Clear();
                 if (clientes.Any())
                 {
                     foreach (var cliente in clientes)
                     {
+                        Debug.WriteLine($"Agregando cliente: {cliente.NombreCliente}, ID: {cliente.IdCliente}");
                         ClientesAsignados.Add(cliente);
                     }
                     MensajeEstado = $"Se encontraron {clientes.Count} clientes asignados";
@@ -87,11 +93,17 @@ namespace MovilAlmacen.ViewModels
                 else
                 {
                     MensajeEstado = "No tiene clientes asignados";
+                    Debug.WriteLine("No se encontraron clientes asignados");
                 }
             }
             catch (Exception ex)
             {
                 MensajeEstado = $"Error: {ex.Message}";
+                Debug.WriteLine($"Error al cargar clientes: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Debug.WriteLine($"InnerException: {ex.InnerException.Message}");
+                }
             }
             finally
             {
@@ -105,9 +117,10 @@ namespace MovilAlmacen.ViewModels
             if (cliente == null)
                 return;
 
+            Debug.WriteLine($"Cliente seleccionado: {cliente.NombreCliente}, ID: {cliente.IdCliente}");
             ClienteSeleccionado = cliente;
 
-            // Navegar a la página de detalle pasando el ID del cliente
+           
             var navigationParameter = new Dictionary<string, object>
             {
                 { "IdAsignacion", cliente.IdAsignacion },
@@ -119,10 +132,11 @@ namespace MovilAlmacen.ViewModels
 
         private async Task CerrarSesion()
         {
-            // Limpiar las preferencias
+            
             Preferences.Clear();
+            Debug.WriteLine("Cerrando sesión, preferencias borradas");
 
-            // Volver a la página de login
+           
             await Shell.Current.GoToAsync("//LoginPage");
         }
     }

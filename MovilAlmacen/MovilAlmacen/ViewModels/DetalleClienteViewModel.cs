@@ -69,6 +69,7 @@ namespace MovilAlmacen.ViewModels
             _apiService = apiService;
 
             MarcarVisitadoCommand = new Command(async () => await ExecuteMarcarVisitadoCommand());
+            
             VolverCommand = new Command(async () => await Shell.Current.GoToAsync(".."));
         }
 
@@ -113,7 +114,7 @@ namespace MovilAlmacen.ViewModels
             {
                 IsBusy = true;
 
-                // Obtener la asignación de la lista de clientes asignados
+                
                 var vendedorId = Preferences.Get("IdUsuario", 0);
                 var asignaciones = await _apiService.GetClientesAsignados(vendedorId);
                 Asignacion = asignaciones.FirstOrDefault(a => a.IdAsignacion == IdAsignacion);
@@ -152,7 +153,7 @@ namespace MovilAlmacen.ViewModels
                     PuedeMarcarVisitado = false;
                     MensajeEstado = "Visita registrada correctamente";
 
-                    // Mostrar alerta de éxito
+                    
                     await Application.Current.MainPage.DisplayAlert("Éxito", "Visita registrada correctamente", "OK");
                 }
                 else

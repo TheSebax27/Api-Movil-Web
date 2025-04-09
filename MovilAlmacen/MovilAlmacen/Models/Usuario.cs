@@ -17,7 +17,7 @@ namespace MovilAlmacen.Models
         private string foto;
         private string ubicacion;
         private string estado;
-        private string _clave; // Renombrada para evitar conflicto
+        private string _clave; 
         private int? idTipo;
         private string tipoUsuarioNombre;
 
@@ -131,7 +131,7 @@ namespace MovilAlmacen.Models
             }
         }
 
-        // Usa JsonPropertyName para indicar que esta propiedad se mapea a "clave" en el JSON
+       
         [JsonPropertyName("clave")]
         public string Clave
         {

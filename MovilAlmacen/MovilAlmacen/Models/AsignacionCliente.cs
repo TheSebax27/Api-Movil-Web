@@ -94,7 +94,7 @@ namespace MovilAlmacen.Models
             }
         }
 
-        // Para propiedades de visualización
+  
         public string EstadoVisita => Visitado ? "Visitado" : "Pendiente";
         public string FechaVisitaStr => FechaVisita.HasValue ? FechaVisita.Value.ToString("dd/MM/yyyy HH:mm") : "-";
         public string FechaAsignacionStr => FechaAsignacion.ToString("dd/MM/yyyy HH:mm");

@@ -12,7 +12,7 @@ public partial class App : Application
     {
         var window = base.CreateWindow(activationState);
 
-        // Tamaño personalizado para ventanas desktop
+       
         if (DeviceInfo.Platform != DevicePlatform.Android && DeviceInfo.Platform != DevicePlatform.iOS)
         {
             window.Width = 400;

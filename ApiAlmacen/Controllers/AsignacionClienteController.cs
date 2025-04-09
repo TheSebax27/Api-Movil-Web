@@ -28,6 +28,31 @@ namespace ApiAlmacen.Controllers
             return await _context.asignacionCliente.ToListAsync();
         }
 
+        // GET: api/AsignacionCliente/vendedor/{idVendedor}
+        [HttpGet("vendedor/{idVendedor}")]
+        public async Task<ActionResult<IEnumerable<object>>> GetAsignacionesPorVendedor(int idVendedor)
+        {
+            // Incluye Cliente y Vendedor para obtener sus datos
+            var asignaciones = await _context.asignacionCliente
+                .Include(a => a.Cliente)
+                .Include(a => a.Vendedor)
+                .Where(a => a.IdVendedor == idVendedor)
+                .Select(a => new
+                {
+                    a.IdAsignacion,
+                    a.IdVendedor,
+                    a.IdCliente,
+                    a.FechaAsignacion,
+                    a.Visitado,
+                    a.FechaVisita,
+                    NombreVendedor = a.Vendedor.Nombres + " " + a.Vendedor.Apellidos,
+                    NombreCliente = a.Cliente.Nombres + " " + a.Cliente.Apellidos
+                })
+                .ToListAsync();
+
+            return asignaciones;
+        }
+
         // GET: api/AsignacionCliente/5
         [HttpGet("{id}")]
         public async Task<ActionResult<AsignacionCliente>> GetAsignacionCliente(int id)
@@ -42,8 +67,39 @@ namespace ApiAlmacen.Controllers
             return asignacionCliente;
         }
 
+        // PUT: api/AsignacionCliente/marcar-visitado/5
+        [HttpPut("marcar-visitado/{id}")]
+        public async Task<IActionResult> MarcarVisitado(int id)
+        {
+            var asignacion = await _context.asignacionCliente.FindAsync(id);
+
+            if (asignacion == null)
+            {
+                return NotFound();
+            }
+
+            asignacion.Visitado = true;
+            asignacion.FechaVisita = DateTime.Now;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                return Ok(new { success = true, message = "Cliente marcado como visitado correctamente" });
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!AsignacionClienteExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+        }
+
         // PUT: api/AsignacionCliente/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAsignacionCliente(int id, AsignacionCliente asignacionCliente)
         {
@@ -74,7 +130,6 @@ namespace ApiAlmacen.Controllers
         }
 
         // POST: api/AsignacionCliente
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<AsignacionCliente>> PostAsignacionCliente(AsignacionCliente asignacionCliente)
         {

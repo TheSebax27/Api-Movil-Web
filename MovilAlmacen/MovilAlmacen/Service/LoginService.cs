@@ -15,7 +15,6 @@ namespace MovilAlmacen.Services
         public async Task GuardarRegistroLogin(LoginInfo loginInfo)
         {
             List<LoginInfo> historial = new();
-
             // Leer archivo existente si existe
             if (File.Exists(_loginFilePath))
             {
@@ -32,11 +31,9 @@ namespace MovilAlmacen.Services
                     Console.WriteLine($"Error al leer archivo de login: {ex.Message}");
                 }
             }
-
             // Agregar nuevo registro
             historial ??= new List<LoginInfo>();
             historial.Add(loginInfo);
-
             // Guardar el archivo actualizado
             string jsonActualizado = JsonSerializer.Serialize(historial, new JsonSerializerOptions { WriteIndented = true });
             await File.WriteAllTextAsync(_loginFilePath, jsonActualizado);
@@ -48,7 +45,6 @@ namespace MovilAlmacen.Services
             {
                 return new List<LoginInfo>();
             }
-
             try
             {
                 string json = await File.ReadAllTextAsync(_loginFilePath);

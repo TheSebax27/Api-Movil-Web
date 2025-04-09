@@ -43,7 +43,6 @@ namespace ApiAlmacen.Controllers
         }
 
         // PUT: api/Usuario/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUsuario(int id, Usuario usuario)
         {
@@ -74,7 +73,6 @@ namespace ApiAlmacen.Controllers
         }
 
         // POST: api/Usuario
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
         {
@@ -104,19 +102,49 @@ namespace ApiAlmacen.Controllers
         {
             return _context.usuario.Any(e => e.IdUsuario == id);
         }
+
         // POST: api/Usuario/Login
         [HttpPost("Login")]
-        public async Task<ActionResult<Usuario>> Login([FromBody] LoginModel login)
+        public async Task<ActionResult<object>> Login([FromBody] LoginModel login)
         {
-            var usuario = await _context.usuario
-                .FirstOrDefaultAsync(u => u.Documento == login.Documento && u.clave == login.Clave);
-
-            if (usuario == null)
+            try
             {
-                return NotFound("Documento o clave incorrectos");
-            }
+                var usuario = await _context.usuario
+                    .Include(u => u.tipoUsuario)
+                    .FirstOrDefaultAsync(u => u.Documento == login.Documento && u.clave == login.Clave);
 
-            return usuario;
+                if (usuario == null)
+                {
+                    return NotFound(new
+                    {
+                        Success = false,
+                        Message = "Documento o clave incorrectos",
+                        Usuario = (Usuario)null
+                    });
+                }
+
+                // Agregar el nombre del tipo de usuario si está disponible
+                if (usuario.tipoUsuario != null)
+                {
+                    usuario.tipoUsuario = usuario.tipoUsuario;
+                }
+
+                return new
+                {
+                    Success = true,
+                    Message = "Login exitoso",
+                    Usuario = usuario
+                };
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    Success = false,
+                    Message = $"Error interno del servidor: {ex.Message}",
+                    Usuario = (Usuario)null
+                });
+            }
         }
 
         // Clase para recibir los datos de login

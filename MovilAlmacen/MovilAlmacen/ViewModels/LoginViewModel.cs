@@ -1,6 +1,7 @@
 ﻿using MovilAlmacen.Models;
 using MovilAlmacen.Services;
 using System.Windows.Input;
+using System.Diagnostics;
 
 namespace MovilAlmacen.ViewModels
 {
@@ -56,17 +57,21 @@ namespace MovilAlmacen.ViewModels
                 IsBusy = true;
                 MensajeError = string.Empty;
 
+                Debug.WriteLine($"Intentando login con documento: {Documento}");
+
                 var usuario = await _apiService.Login(Documento, Clave);
+
                 if (usuario != null)
                 {
-                    // Guardar sesión actual
+                    Debug.WriteLine($"Login exitoso para usuario: {usuario.Nombres} {usuario.Apellidos}");
+
                     Preferences.Set("IdUsuario", usuario.IdUsuario);
                     Preferences.Set("NombreUsuario", $"{usuario.Nombres} {usuario.Apellidos}");
-                    // Guardamos el IdTipo como cadena para evitar problemas de conversión
+                   
                     Preferences.Set("TipoUsuario", usuario.IdTipo.HasValue ? usuario.IdTipo.Value.ToString() : "0");
 
-                    // Si es vendedor, registrar en archivo JSON
-                    if (usuario.IdTipo == 2) // Tipo vendedor
+                   
+                    if (usuario.IdTipo == 2) 
                     {
                         var loginInfo = new LoginInfo
                         {
@@ -75,21 +80,27 @@ namespace MovilAlmacen.ViewModels
                             Apellidos = usuario.Apellidos,
                             FechaHoraIngreso = DateTime.Now
                         };
-
                         await _loginService.GuardarRegistroLogin(loginInfo);
                     }
 
-                    // Navegar a la página principal según el tipo de usuario
+                   
                     await Shell.Current.GoToAsync("//ClientesPage");
                 }
                 else
                 {
                     MensajeError = "Documento o clave incorrectos";
+                    Debug.WriteLine("Login fallido: usuario es null");
                 }
             }
             catch (Exception ex)
             {
                 MensajeError = $"Error: {ex.Message}";
+                Debug.WriteLine($"Error en login: {ex.Message}");
+
+                if (ex.InnerException != null)
+                {
+                    Debug.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+                }
             }
             finally
             {
