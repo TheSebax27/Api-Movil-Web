@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAlmacen.Views.DetalleClientePage"
+             xmlns:viewmodel="clr-namespace:MovilAlmacen.ViewModels"
+             x:DataType="viewmodel:DetalleClienteViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#f5f5f5">
+
+    <Grid RowDefinitions="Auto,*,Auto">
+        <!-- Encabezado -->
+        <Grid Grid.Row="0" 
+              BackgroundColor="#3498db" 
+              Padding="15">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0"
+                    Text="←"
+                    Command="{Binding VolverCommand}"
+                    BackgroundColor="Transparent"
+                    TextColor="White"
+                    FontSize="22"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    Margin="0,0,10,0" />
+
+            <VerticalStackLayout Grid.Column="1">
+                <Label Text="{Binding Title}"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       TextColor="White" />
+
+                <Label Text="Detalle del Cliente"
+                       FontSize="14"
+                       TextColor="White"
+                       Opacity="0.8" />
+            </VerticalStackLayout>
+        </Grid>
+
+        <!-- Contenido -->
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Padding="20" Spacing="20">
+                <!-- Tarjeta de información principal -->
+                <Frame BackgroundColor="White"
+                       BorderColor="Transparent"
+                       CornerRadius="10"
+                       HasShadow="True"
+                       Padding="0">
+                    <VerticalStackLayout>
+                        <!-- Cabecera de la tarjeta -->
+                        <Grid BackgroundColor="#f8f8f8"
+                              Padding="15"
+                              HeightRequest="100">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Frame Grid.Column="0"
+                                   HeightRequest="80"
+                                   WidthRequest="80"
+                                   CornerRadius="40"
+                                   BorderColor="Transparent"
+                                   BackgroundColor="#e0e0e0"
+                                   Padding="0"
+                                   IsClippedToBounds="True">
+                                <Label Text="{Binding Cliente.Nombres, Converter={StaticResource InitialsConverter}}"
+                                       FontSize="28"
+                                       FontAttributes="Bold"
+                                       TextColor="#3498db"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" />
+                            </Frame>
+
+                            <VerticalStackLayout Grid.Column="1"
+                                                 VerticalOptions="Center"
+                                                 Margin="15,0">
+                                <Label Text="{Binding Cliente.NombreCompleto}"
+                                       FontSize="20"
+                                       FontAttributes="Bold"
+                                       TextColor="#333333" />
+                                <Label Text="{Binding Cliente.Documento, StringFormat='Documento: {0}'}"
+                                       FontSize="14"
+                                       TextColor="#666666" />
+                            </VerticalStackLayout>
+                        </Grid>
+
+                        <!-- Detalles de contacto -->
+                        <VerticalStackLayout Padding="20" Spacing="15">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="📱" 
+                                       FontSize="18"
+                                       WidthRequest="30" />
+                                <VerticalStackLayout>
+                                    <Label Text="Celular"
+                                           FontSize="12"
+                                           TextColor="#999999" />
+                                    <Label Text="{Binding Cliente.Celular}"
+                                           FontSize="16"
+                                           TextColor="#333333" />
+                                </VerticalStackLayout>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="☎️" 
+                                       FontSize="18"
+                                       WidthRequest="30" />
+                                <VerticalStackLayout>
+                                    <Label Text="Teléfono Fijo"
+                                           FontSize="12"
+                                           TextColor="#999999" />
+                                    <Label Text="{Binding Cliente.TelefonoFijo}"
+                                           FontSize="16"
+                                           TextColor="#333333" />
+                                </VerticalStackLayout>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="✉️" 
+                                       FontSize="18"
+                                       WidthRequest="30" />
+                                <VerticalStackLayout>
+                                    <Label Text="Email"
+                                           FontSize="12"
+                                           TextColor="#999999" />
+                                    <Label Text="{Binding Cliente.Email}"
+                                           FontSize="16"
+                                           TextColor="#333333" />
+                                </VerticalStackLayout>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="🏠" 
+                                       FontSize="18"
+                                       WidthRequest="30" />
+                                <VerticalStackLayout>
+                                    <Label Text="Dirección"
+                                           FontSize="12"
+                                           TextColor="#999999" />
+                                    <Label Text="{Binding Cliente.Direccion}"
+                                           FontSize="16"
+                                           TextColor="#333333" />
+                                </VerticalStackLayout>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="📍" 
+                                       FontSize="18"
+                                       WidthRequest="30" />
+                                <VerticalStackLayout>
+                                    <Label Text="Ubicación"
+                                           FontSize="12"
+                                           TextColor="#999999" />
+                                    <Label Text="{Binding Cliente.Ubicacion}"
+                                           FontSize="16"
+                                           TextColor="#333333" />
+                                </VerticalStackLayout>
+                            </StackLayout>
+                        </VerticalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Tarjeta de estado de visita -->
+                <Frame BackgroundColor="White"
+                       BorderColor="Transparent"
+                       CornerRadius="10"
+                       HasShadow="True"
+                       Padding="20">
+                    <VerticalStackLayout Spacing="15">
+                        <Label Text="Estado de Visita"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               TextColor="#333333" />
+
+                        <Grid ColumnDefinitions="Auto,*">
+                            <Label Grid.Column="0"
+                                   Text="Estado:"
+                                   FontSize="16"
+                                   TextColor="#666666"
+                                   WidthRequest="100" />
+
+                            <Frame Grid.Column="1"
+                                   Padding="8,3"
+                                   CornerRadius="4"
+                                   BackgroundColor="{Binding Asignacion.Visitado, Converter={StaticResource BoolToColorConverter}}"
+                                   BorderColor="Transparent"
+                                   HorizontalOptions="Start">
+                                <Label Text="{Binding Asignacion.EstadoVisita}"
+                                       FontSize="14"
+                                       TextColor="White"
+                                       FontAttributes="Bold" />
+                            </Frame>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*" IsVisible="{Binding Asignacion.Visitado}">
+                            <Label Grid.Column="0"
+                                   Text="Fecha visita:"
+                                   FontSize="16"
+                                   TextColor="#666666"
+                                   WidthRequest="100" />
+
+                            <Label Grid.Column="1"
+                                   Text="{Binding Asignacion.FechaVisitaStr}"
+                                   FontSize="16"
+                                   TextColor="#333333" />
+                        </Grid>
+
+                        <Grid ColumnDefinitions="Auto,*">
+                            <Label Grid.Column="0"
+                                   Text="Asignado:"
+                                   FontSize="16"
+                                   TextColor="#666666"
+                                   WidthRequest="100" />
+
+                            <Label Grid.Column="1"
+                                   Text="{Binding Asignacion.FechaAsignacionStr}"
+                                   FontSize="16"
+                                   TextColor="#333333" />
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Barra inferior con botón de acción -->
+        <Border Grid.Row="2"
+                BackgroundColor="White"
+                StrokeThickness="0">
+            <!-- Adding shadow using Effects -->
+            <Border.Shadow>
+                <Shadow Brush="#22000000"
+                       Offset="0, -5"
+                       Radius="10"
+                       Opacity="0.5" />
+            </Border.Shadow>
+
+            <Grid Padding="20,15"
+                  ColumnDefinitions="*,Auto">
+                <Label Grid.Column="0"
+                       Text="{Binding MensajeEstado}"
+                       FontSize="14"
+                       TextColor="#666666"
+                       VerticalOptions="Center" />
+
+                <Button Grid.Column="1"
+                        Text="MARCAR COMO VISITADO"
+                        Command="{Binding MarcarVisitadoCommand}"
+                        BackgroundColor="#4CAF50"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        CornerRadius="8"
+                        IsVisible="{Binding PuedeMarcarVisitado}" />
+            </Grid>
+        </Border>
+
+        <!-- Indicador de carga -->
+        <Grid Grid.RowSpan="3"
+              BackgroundColor="#80000000"
+              IsVisible="{Binding IsBusy}">
+            <ActivityIndicator IsRunning="{Binding IsBusy}"
+                               Color="White"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+        </Grid>
+    </Grid>
+</ContentPage>

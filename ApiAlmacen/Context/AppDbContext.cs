@@ -12,6 +12,7 @@ namespace ApiAlmacen.Context
 
         public DbSet<Usuario> usuario { get; set; }
         public DbSet<TipoUsuario> tipoUsuario { get; set; }
+        public DbSet<AsignacionCliente> asignacionCliente { get; set; }
 
 
     }

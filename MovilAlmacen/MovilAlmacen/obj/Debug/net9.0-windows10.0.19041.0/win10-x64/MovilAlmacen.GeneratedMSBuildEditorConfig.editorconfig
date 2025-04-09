@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MovilAlmacen
-build_property.ProjectDir = C:\Users\PC_11\Desktop\Api-Web-Movil\MovilAlmacen\MovilAlmacen\
+build_property.ProjectDir = C:\Users\Sebastian\OneDrive\Desktop\trabajo-mov-Api-web\Api-Movil-Web\MovilAlmacen\MovilAlmacen\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -22,32 +22,56 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/PC_11/Desktop/Api-Web-Movil/MovilAlmacen/MovilAlmacen/App.xaml]
+[C:/Users/Sebastian/OneDrive/Desktop/trabajo-mov-Api-web/Api-Movil-Web/MovilAlmacen/MovilAlmacen/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MovilAlmacen.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/PC_11/Desktop/Api-Web-Movil/MovilAlmacen/MovilAlmacen/AppShell.xaml]
+[C:/Users/Sebastian/OneDrive/Desktop/trabajo-mov-Api-web/Api-Movil-Web/MovilAlmacen/MovilAlmacen/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MovilAlmacen.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/PC_11/Desktop/Api-Web-Movil/MovilAlmacen/MovilAlmacen/MainPage.xaml]
+[C:/Users/Sebastian/OneDrive/Desktop/trabajo-mov-Api-web/Api-Movil-Web/MovilAlmacen/MovilAlmacen/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MovilAlmacen.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/PC_11/Desktop/Api-Web-Movil/MovilAlmacen/MovilAlmacen/Resources/Styles/Colors.xaml]
+[C:/Users/Sebastian/OneDrive/Desktop/trabajo-mov-Api-web/Api-Movil-Web/MovilAlmacen/MovilAlmacen/Resources/Styles/AppStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAlmacen.Resources.Styles.AppStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\AppStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\AppStyles.xaml
+
+[C:/Users/Sebastian/OneDrive/Desktop/trabajo-mov-Api-web/Api-Movil-Web/MovilAlmacen/MovilAlmacen/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MovilAlmacen.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/PC_11/Desktop/Api-Web-Movil/MovilAlmacen/MovilAlmacen/Resources/Styles/Styles.xaml]
+[C:/Users/Sebastian/OneDrive/Desktop/trabajo-mov-Api-web/Api-Movil-Web/MovilAlmacen/MovilAlmacen/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MovilAlmacen.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Sebastian/OneDrive/Desktop/trabajo-mov-Api-web/Api-Movil-Web/MovilAlmacen/MovilAlmacen/Views/ClientesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAlmacen.Views.ClientesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ClientesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ClientesPage.xaml
+
+[C:/Users/Sebastian/OneDrive/Desktop/trabajo-mov-Api-web/Api-Movil-Web/MovilAlmacen/MovilAlmacen/Views/DetalleClientePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAlmacen.Views.DetalleClientePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DetalleClientePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DetalleClientePage.xaml
+
+[C:/Users/Sebastian/OneDrive/Desktop/trabajo-mov-Api-web/Api-Movil-Web/MovilAlmacen/MovilAlmacen/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MovilAlmacen.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml

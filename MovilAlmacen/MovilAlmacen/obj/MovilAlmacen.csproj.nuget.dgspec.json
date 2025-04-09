@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj": {}
+    "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj": {
+    "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj",
+        "projectUniqueName": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj",
         "projectName": "MovilAlmacen",
-        "projectPath": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj",
-        "packagesPath": "C:\\Users\\PC_11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC_11\\Desktop\\Api-Web-Movil\\MovilAlmacen\\MovilAlmacen\\obj\\",
+        "projectPath": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\MovilAlmacen.csproj",
+        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sebastian\\OneDrive\\Desktop\\trabajo-mov-Api-web\\Api-Movil-Web\\MovilAlmacen\\MovilAlmacen\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC_11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:helpers="clr-namespace:MovilAlmacen.Helpers">
+
+    <!-- Converters -->
+    <helpers:StringNotEmptyConverter x:Key="StringNotEmptyConverter" />
+    <helpers:BoolToColorConverter x:Key="BoolToColorConverter" />
+    <helpers:InitialsConverter x:Key="InitialsConverter" />
+
+    <!-- Colors -->
+    <Color x:Key="PrimaryColor">#3498db</Color>
+    <Color x:Key="PrimaryDarkColor">#2980b9</Color>
+    <Color x:Key="AccentColor">#4CAF50</Color>
+    <Color x:Key="WarningColor">#FF9800</Color>
+    <Color x:Key="TextPrimaryColor">#333333</Color>
+    <Color x:Key="TextSecondaryColor">#666666</Color>
+    <Color x:Key="BackgroundColor">#f5f5f5</Color>
+
+    <!-- Styles -->
+    <Style TargetType="Button">
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="CornerRadius" Value="8" />
+    </Style>
+
+    <Style TargetType="Frame">
+        <Setter Property="CornerRadius" Value="10" />
+        <Setter Property="HasShadow" Value="True" />
+        <Setter Property="BorderColor" Value="Transparent" />
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource TextPrimaryColor}" />
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAlmacen.Views.ClientesPage"
+             xmlns:viewmodel="clr-namespace:MovilAlmacen.ViewModels"
+             xmlns:model="clr-namespace:MovilAlmacen.Models"
+             x:DataType="viewmodel:ClientesViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#f5f5f5">
+
+    <Grid RowDefinitions="Auto,*,Auto">
+        <!-- Encabezado -->
+        <Grid Grid.Row="0" 
+              BackgroundColor="#3498db" 
+              Padding="20,15">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <VerticalStackLayout Grid.Column="0">
+                <Label Text="Clientes Asignados"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       TextColor="White" />
+
+                <Label Text="{Binding MensajeEstado}"
+                       FontSize="14"
+                       TextColor="White"
+                       Opacity="0.8" />
+            </VerticalStackLayout>
+
+            <Button Grid.Column="1"
+                    Text="Salir"
+                    Command="{Binding CerrarSesionCommand}"
+                    BackgroundColor="#2980b9"
+                    TextColor="White"
+                    CornerRadius="8"
+                    FontSize="12"
+                    HeightRequest="40"
+                    WidthRequest="80" />
+        </Grid>
+
+        <!-- Lista de clientes -->
+        <RefreshView Grid.Row="1" 
+                     IsRefreshing="{Binding IsRefreshing}"
+                     Command="{Binding RefreshCommand}">
+
+            <CollectionView ItemsSource="{Binding ClientesAsignados}"
+                            SelectionMode="Single"
+                            SelectionChangedCommand="{Binding SeleccionarClienteCommand}"
+                            SelectionChangedCommandParameter="{Binding Source={RelativeSource Self}, Path=SelectedItem}"
+                            EmptyView="No hay clientes asignados">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:AsignacionCliente">
+                        <Frame Margin="15, 8"
+                               Padding="15"
+                               CornerRadius="8"
+                               BorderColor="Transparent"
+                               BackgroundColor="White"
+                               HasShadow="True">
+                            <Grid RowDefinitions="Auto,Auto,Auto">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Row="0" Grid.Column="0"
+                                       Text="{Binding NombreCliente}"
+                                       FontSize="18"
+                                       FontAttributes="Bold"
+                                       TextColor="#333333" />
+
+                                <Frame Grid.Row="0" Grid.Column="1"
+                                       Padding="8,3"
+                                       CornerRadius="4"
+                                       BackgroundColor="{Binding Visitado, Converter={StaticResource BoolToColorConverter}}"
+                                       BorderColor="Transparent">
+                                    <Label Text="{Binding EstadoVisita}"
+                                           FontSize="12"
+                                           TextColor="White"
+                                           FontAttributes="Bold" />
+                                </Frame>
+
+                                <BoxView Grid.Row="1" 
+                                         Grid.ColumnSpan="2"
+                                         HeightRequest="1"
+                                         Color="#eeeeee"
+                                         Margin="0,8" />
+
+                                <VerticalStackLayout Grid.Row="2"
+                                                     Grid.ColumnSpan="2"
+                                                     Spacing="5">
+                                    <Label Text="{Binding FechaAsignacionStr, StringFormat='Asignado: {0}'}"
+                                           FontSize="13"
+                                           TextColor="#666666" />
+
+                                    <Label Text="{Binding FechaVisitaStr, StringFormat='Última visita: {0}'}"
+                                           FontSize="13"
+                                           TextColor="#666666"
+                                           IsVisible="{Binding Visitado}" />
+                                </VerticalStackLayout>
+                            </Grid>
+
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ClientesViewModel}}, Path=SeleccionarClienteCommand}"
+                                    CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+
+        <!-- Indicador de carga -->
+        <ActivityIndicator Grid.Row="1"
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           Color="#3498db"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+    </Grid>
+</ContentPage>

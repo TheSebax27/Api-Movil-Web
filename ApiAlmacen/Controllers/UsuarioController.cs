@@ -104,5 +104,26 @@ namespace ApiAlmacen.Controllers
         {
             return _context.usuario.Any(e => e.IdUsuario == id);
         }
+        // POST: api/Usuario/Login
+        [HttpPost("Login")]
+        public async Task<ActionResult<Usuario>> Login([FromBody] LoginModel login)
+        {
+            var usuario = await _context.usuario
+                .FirstOrDefaultAsync(u => u.Documento == login.Documento && u.clave == login.Clave);
+
+            if (usuario == null)
+            {
+                return NotFound("Documento o clave incorrectos");
+            }
+
+            return usuario;
+        }
+
+        // Clase para recibir los datos de login
+        public class LoginModel
+        {
+            public string Documento { get; set; }
+            public string Clave { get; set; }
+        }
     }
 }

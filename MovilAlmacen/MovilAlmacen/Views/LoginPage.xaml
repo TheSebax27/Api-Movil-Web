@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovilAlmacen.Views.LoginPage"
+             xmlns:viewmodel="clr-namespace:MovilAlmacen.ViewModels"
+             x:DataType="viewmodel:LoginViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#f5f5f5">
+
+    <Grid RowDefinitions="Auto,*">
+        <!-- Encabezado -->
+        <VerticalStackLayout Grid.Row="0" Spacing="0"
+                             Padding="20,60,20,20"
+                             BackgroundColor="#3498db">
+            <Label Text="SISTEMA ALMACÉN"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center" />
+            <Label Text="Control de Vendedores"
+                   FontSize="18"
+                   TextColor="White"
+                   Opacity="0.8"
+                   HorizontalOptions="Center" />
+        </VerticalStackLayout>
+
+        <!-- Formulario de login -->
+        <Border Grid.Row="1"
+                Margin="20,-50,20,20"
+                StrokeShape="RoundRectangle 10"
+                BackgroundColor="White"
+                Stroke="Transparent">
+            <!-- Proper shadow implementation -->
+            <Border.Shadow>
+                <Shadow Brush="#22000000"
+                        Offset="0,5"
+                        Radius="10"
+                        Opacity="0.5" />
+            </Border.Shadow>
+
+            <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto"
+                  Padding="20">
+
+                <Image Grid.Row="0"
+                       Source="user_icon.png"
+                       HeightRequest="80"
+                       WidthRequest="80"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,20" />
+
+                <Label Grid.Row="1"
+                       Text="Iniciar Sesión"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       TextColor="#333333"
+                       HorizontalOptions="Center"
+                       Margin="0,0,0,20" />
+
+                <VerticalStackLayout Grid.Row="2" Spacing="15">
+                    <Frame BorderColor="#e0e0e0"
+                           Padding="15,5"
+                           HasShadow="False"
+                           CornerRadius="5">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Text="Documento"
+                                   FontSize="12"
+                                   TextColor="#999" />
+                            <Entry Text="{Binding Documento}"
+                                   Placeholder="Ingrese su número de documento"
+                                   PlaceholderColor="#ccc"
+                                   Keyboard="Numeric" />
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <Frame BorderColor="#e0e0e0"
+                           Padding="15,5"
+                           HasShadow="False"
+                           CornerRadius="5">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Text="Contraseña"
+                                   FontSize="12"
+                                   TextColor="#999" />
+                            <Entry Text="{Binding Clave}"
+                                   Placeholder="Ingrese su contraseña"
+                                   PlaceholderColor="#ccc"
+                                   IsPassword="True" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+
+                <Button Grid.Row="3"
+                        Text="INGRESAR"
+                        Command="{Binding LoginCommand}"
+                        BackgroundColor="#3498db"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        CornerRadius="8"
+                        Margin="0,30,0,0"
+                        HeightRequest="50" />
+
+                <VerticalStackLayout Grid.Row="4" 
+                                     Margin="0,15,0,0"
+                                     IsVisible="{Binding MensajeError, Converter={StaticResource StringNotEmptyConverter}}">
+                    <Frame BackgroundColor="#ffeeee"
+                           BorderColor="#ffcccc"
+                           Padding="10"
+                           HasShadow="False"
+                           CornerRadius="5">
+                        <Label Text="{Binding MensajeError}"
+                               TextColor="#d32f2f"
+                               FontSize="14"
+                               HorizontalOptions="Center" />
+                    </Frame>
+                </VerticalStackLayout>
+
+                <ActivityIndicator Grid.Row="4"
+                                   IsRunning="{Binding IsBusy}"
+                                   IsVisible="{Binding IsBusy}"
+                                   Color="#3498db"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   Margin="0,20,0,0" />
+            </Grid>
+        </Border>
+    </Grid>
+</ContentPage>
