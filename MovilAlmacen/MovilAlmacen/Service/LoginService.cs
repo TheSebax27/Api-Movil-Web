@@ -1,5 +1,6 @@
-﻿using System.Text.Json;
+using System.Text.Json;
 using MovilAlmacen.Models;
+using System.Runtime.InteropServices;
 
 namespace MovilAlmacen.Services
 {
@@ -9,13 +10,17 @@ namespace MovilAlmacen.Services
 
         public LoginService()
         {
+#if WINDOWS
+            string documentosPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            _loginFilePath = Path.Combine(documentosPath, "login_history.json");
+#else
             _loginFilePath = Path.Combine(FileSystem.AppDataDirectory, "login_history.json");
+#endif
         }
 
         public async Task GuardarRegistroLogin(LoginInfo loginInfo)
         {
             List<LoginInfo> historial = new();
-            // Leer archivo existente si existe
             if (File.Exists(_loginFilePath))
             {
                 try
@@ -31,10 +36,10 @@ namespace MovilAlmacen.Services
                     Console.WriteLine($"Error al leer archivo de login: {ex.Message}");
                 }
             }
-            // Agregar nuevo registro
+
             historial ??= new List<LoginInfo>();
             historial.Add(loginInfo);
-            // Guardar el archivo actualizado
+
             string jsonActualizado = JsonSerializer.Serialize(historial, new JsonSerializerOptions { WriteIndented = true });
             await File.WriteAllTextAsync(_loginFilePath, jsonActualizado);
         }
